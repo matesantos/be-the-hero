@@ -7,6 +7,4 @@ const index = async (request, response) =>{
     return response.json(incidents)
 }
 
-module.exports = {
-    index
-}
+module.exports = { index }
